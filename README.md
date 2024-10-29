@@ -1,2 +1,2 @@
 # ICP
-This repository is for practicing ICP Coding
+This repository is for creating an ICP chatbot
