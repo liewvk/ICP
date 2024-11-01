@@ -1,0 +1,33 @@
+{
+  "canisters": {
+    "chatbot_project_backend": {
+      "main": "src/chatbot_project_backend/main.mo",
+      "type": "motoko"
+    },
+    "chatbot_project_frontend": {
+      "dependencies": [
+        "chatbot_project_backend"
+      ],
+      "source": [
+        "src/chatbot_project_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "chatbot_project_frontend"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8080",
+      "type": "ephemeral"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": ""
+    }
+  },
+  "dfx": "0.24.1",
+  "version": 1
+}
+
+
