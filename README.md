@@ -4,27 +4,27 @@ Welcome to our new `chatbot_project` project. This is a simple chatbot app creat
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
-PREREQUISITES:
-
-Bring Your Own Device
-Supported Operating Systems
+<h2><b></b>PREREQUISITES:</b></h2>
+<UL>
+<LI>Bring Your Own Device
+<LI>Supported Operating Systems
 Windows 10 or 11 with WSL2 installed with Ubuntu Linux v20.04
 Mac OSX 12 or above
 Ubuntu Linux v20.04
 NodeJs v20
-Git & Github Account
-IC SDK Tools, Visual Studio Code IDE
-Basic Programming Languages
+<LI>Git & Github Account
+<LI>IC SDK Tools, Visual Studio Code IDE
+<LI>Basic Programming Languages
 Javascript, HTML, CSS
-
-Create a GitHub Account
+</UL>
+<strong> Vreate a GitHub Account</strong>
 
 Visit https://github.com and create your Github account
 Refer to this youtube to leanr how to create Github account:
 
 https://www.youtube.com/watch?v=_28_KF9ILLM
 
-PREPARE ENVIRONMENT FOR WINDOWS 
+<strong>PREPARE ENVIRONMENT FOR WINDOWS </strong>
 
 Install Windows Subsystem Linux
 - Open Command Prompt with Administrator user
@@ -33,7 +33,7 @@ wsl --install
 - Install Ubuntu 
 wsl --install -d Ubuntu
 
-NSTALL NODEJS
+<strong>Install NODEJS</strong>
 
 Install nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -45,12 +45,20 @@ Verifies the right Node.js version is in the environment
 
 node -v # should print `v20.16.0`
 
-INSTALL IC SDK
+<strong>Install IC SDK</strong>
 
 sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
 dfx --version
 
 If you are using a machine running Apple silicon, you will need to have Rosetta installed. You can install Rosetta by running softwareupdate --install-rosetta in your terminal.
+
+<strong>Create Account</strong>
+
+dfx identity new <identity_name>
+
+💡Identity names must use the characters ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.-_@0123456789
+ℹ️REMEMBER to backup the 24 words of account/identity seed phrase, you need this to restore back your account.
+You can create multiple accounts in your device
 
 
 
