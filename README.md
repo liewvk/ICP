@@ -8,10 +8,14 @@ To get started, you might want to explore the project directory structure and th
 <UL>
 <LI>Bring Your Own Device
 <LI>Supported Operating Systems
-Windows 10 or 11 with WSL2 installed with Ubuntu Linux v20.04
-Mac OSX 12 or above
-Ubuntu Linux v20.04
-NodeJs v20
+  <OL>
+<LI>Windows 10 or 11 with WSL2 installed with Ubuntu Linux v20.04
+<LI>Mac OSX 12 or above
+<LI>Ubuntu Linux v20.04
+<LI></LI>NodeJs v20
+  </OL>
+</UL>
+<UL>
 <LI>Git & Github Account
 <LI>IC SDK Tools, Visual Studio Code IDE
 <LI>Basic Programming Languages
