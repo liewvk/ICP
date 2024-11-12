@@ -4,6 +4,56 @@ Welcome to our new `chatbot_project` project. This is a simple chatbot app creat
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
+PREREQUISITES:
+
+Bring Your Own Device
+Supported Operating Systems
+Windows 10 or 11 with WSL2 installed with Ubuntu Linux v20.04
+Mac OSX 12 or above
+Ubuntu Linux v20.04
+NodeJs v20
+Git & Github Account
+IC SDK Tools, Visual Studio Code IDE
+Basic Programming Languages
+Javascript, HTML, CSS
+
+Create a GitHub Account
+
+Visit https://github.com and create your Github account
+Refer to this youtube to leanr how to create Github account:
+
+https://www.youtube.com/watch?v=_28_KF9ILLM
+
+PREPARE ENVIRONMENT FOR WINDOWS 
+
+Install Windows Subsystem Linux
+- Open Command Prompt with Administrator user
+- Run following command
+wsl --install
+- Install Ubuntu 
+wsl --install -d Ubuntu
+
+NSTALL NODEJS
+
+Install nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+Download and install Node.js (you may need to restart the terminal)
+nvm install 20
+
+Verifies the right Node.js version is in the environment
+
+node -v # should print `v20.16.0`
+
+INSTALL IC SDK
+
+sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
+dfx --version
+
+If you are using a machine running Apple silicon, you will need to have Rosetta installed. You can install Rosetta by running softwareupdate --install-rosetta in your terminal.
+
+
+
 To learn more before you start working with `chatbot_project`, see the following documentation available online:
 
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
