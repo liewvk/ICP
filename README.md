@@ -28,7 +28,7 @@ Refer to this youtube to leanr how to create Github account:
 
 https://www.youtube.com/watch?v=_28_KF9ILLM
 
-<strong>PREPARE ENVIRONMENT FOR WINDOWS </strong>
+<strong>Prepare Emvironment for Windows </strong>
 
 Install Windows Subsystem Linux
 - Open Command Prompt with Administrator user
