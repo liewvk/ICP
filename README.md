@@ -12,16 +12,16 @@ To get started, you might want to explore the project directory structure and th
 <LI>Windows 10 or 11 with WSL2 installed with Ubuntu Linux v20.04
 <LI>Mac OSX 12 or above
 <LI>Ubuntu Linux v20.04
-<LI></LI>NodeJs v20
+<LI>NodeJs v20
   </OL>
 </UL>
 <UL>
 <LI>Git & Github Account
 <LI>IC SDK Tools, Visual Studio Code IDE
 <LI>Basic Programming Languages
-Javascript, HTML, CSS
+<LI>Javascript, HTML, CSS
 </UL>
-<strong> Vreate a GitHub Account</strong>
+<strong> Create a GitHub Account</strong>
 
 Visit https://github.com and create your Github account
 Refer to this youtube to leanr how to create Github account:
